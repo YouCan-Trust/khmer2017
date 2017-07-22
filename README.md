@@ -22,6 +22,7 @@
 * ionic cordova plugin add cordova-plugin-whitelist
 * ionic cordova plugin add ionic-plugin-keyboard
 * npm install --save @ionic-native/keyboard
+* npm install @ionic/cloud-angular --save
 
 **2. Steps build APK for Fabric.io**
 

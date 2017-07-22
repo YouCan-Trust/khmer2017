@@ -1,5 +1,6 @@
+/* tslint:disable */
 import { Component, Input, ElementRef, Renderer } from '@angular/core';
-
+/* tslint:enable */
 @Component({
   selector: 'shrinking-segment-header',
   templateUrl: 'shrinking-segment-header.html'

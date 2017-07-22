@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
+/* tslint:disable */
 import { Http, Response } from "@angular/http";
+/* tslint:enable */
 import 'rxjs/Rx';
 
 @Injectable()
