@@ -1,0 +1,16 @@
+<ion-content>
+  <h2 class="line-back">
+    <span class="top-menu-btn">
+      <button ion-button round class="setting-btn" (click)="showSettings()"><ion-icon name="ios-more"></ion-icon></button>
+      <button ion-button round class="close-btn" (click)="closeMenu()"><ion-icon name="ios-close"></ion-icon></button>
+    </span>
+  </h2>
+  <ion-list no-border padding>
+    <button ion-item *ngFor="let data of Details; let i = index" detail-none (click)="gotoSlide(i)">
+      <span class="menu-active" *ngIf="i===index"><ion-icon name="checkmark-circle"></ion-icon></span>
+      <span class="menu-bullet bcolor{{i+1}}" item-left>{{i+1}}</span>
+      <!-- <span class="menu-tag">#{{data.tag}}</span> -->
+      <span class="menu-title color{{i+1}}">{{data.title}}</span>
+    </button>
+  </ion-list>
+</ion-content>

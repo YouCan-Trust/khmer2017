@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "710676235262",
+    "firebase_url": "https://khmer2017-3578c.firebaseio.com",
+    "project_id": "khmer2017-3578c",
+    "storage_bucket": "khmer2017-3578c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710676235262:android:4cd8cf3433dec39d",
+        "android_client_info": {
+          "package_name": "com.khmer2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710676235262-m7f1cgbobpjht4e1j07din0n0rb2ugbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZSgWHw6z-WAQH66ww13T2aJvvQg_Z88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

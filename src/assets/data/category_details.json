@@ -1,0 +1,736 @@
+[
+  {
+    "id":"0001",
+    "picture":"images/ca1.jpg",
+    "tag":"",
+    "title":"Conversation",
+    "heading1":"Hello Caption.",
+    "heading2":"Hello informal",
+    "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/greetings-01.jpg",
+      "content": [
+        {
+          "title1":"Hello (informal)",
+          "title2":"Sous-dey",
+          "paragraph":"for friends, coleagues & younger people",
+          "soundfile":"02-sou-sday.mp3"
+        },
+        {
+          "title1":"Hello (formal)",
+          "title2":"chum reap suor",
+          "paragraph":"greet people who are not so close to you",
+          "soundfile":"01-joom-reab-sou.mp3"
+        },
+        {
+          "title1":"Goodbye (formal)",
+          "title2":"Chum reap lea",
+          "paragraph":" ",
+          "soundfile":"03-joom-reab-lea.mp3"
+        },
+        {
+          "title1":"Goodbye (informal)",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"04-le_hai.mp3"
+        },
+        {
+          "title1":"How are you?",
+   			  "title2":"ter neak sok sabay te?",
+   			  "paragraph":"combodins usually ask this question",
+          "soundfile":"05-ter-neak-sok-sabay-te.mp3"
+        },
+        {
+          "title1":"I am fine, thanks",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"06-khnom-sok-sabay_te-aw-kun.mp3"
+        },
+        {
+          "title1":"Nice to meet you",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"07-rick-reeay-nas-del-ban-skall_-neak.mp3"
+        },
+        {
+          "title1":"What is your name?",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"08-ter-neak-maen-chhmos-arvey.mp3"
+        },
+        {
+          "title1":"My name is",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"09-khmom_mean_tschmoa.mp3"
+        },
+        {
+          "title1":"How old are you?",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"10-ter-neak-maen-aryok-punman.mp3"
+        },
+        {
+          "title1":"I am ..years old",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"11-khmom_mean_aryok.mp3"
+        },
+        {
+          "title1":"I am tired",
+   			  "title2":" ",
+   			  "paragraph":" ",
+          "soundfile":"12-knhom-hort-nas.mp3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0002",
+    "picture":"images/ca2.jpg",
+    "tag":"",
+    "title":"Eat & Drink",
+    "Heading1":"Hello Katriss.",
+ 	  "Heading2":"Hello informal",
+ 	  "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/ca2.jpg",
+      "content": [
+        {
+          "title1":"Banana",
+    		 	"title2":"Plei jeyk",
+    		 	"paragraph1":"",
+          "soundfile":"01-DR2-0063.MP3"
+        },
+        {
+          "title1":"Bean",
+    		 	"title2":"Soun dej dey",
+    		 	"paragraph2":"",
+          "soundfile":"02-DR2-0078.MP3"
+        },
+        {
+          "title1":"Beef",
+    		 	"title2":"Sach ko",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0087.MP3"
+        },
+        {
+          "title1":"Beer",
+    		 	"title2":"Srabeer",
+   			  "paragraph":" ",
+          "soundfile":"04-DR2-0082.MP3"
+        },
+        {
+          "title1":"Bill Please",
+    		 	"title2":"Som kit luy",
+   			  "paragraph":" ",
+          "soundfile":"05-DR2-0089.MP3"
+        },
+        {
+          "title1":"Carrots",
+    		 	"title2":"Karrot",
+   			  "paragraph":" ",
+          "soundfile":"06-DR2-0076.MP3"
+        },
+        {
+          "title1":"Chicken",
+    		 	"title2":"Sach meun",
+   			  "paragraph":" ",
+          "soundfile":"07-DR2-0088.MP3"
+        },
+        {
+          "title1":"Chilli",
+    		 	"title2":"Plymateh",
+   			  "paragraph":" ",
+          "soundfile":"08-DR2-0085.MP3"
+        },
+        {
+          "title1":"Coconut",
+    		 	"title2":"Plei doung",
+   			  "paragraph":" ",
+          "soundfile":"09-DR2-0064.MP3"
+        },
+        {
+          "title1":"Delicious",
+    		 	"title2":"Cha arnh",
+   			  "paragraph":" ",
+          "soundfile":"10-DR2-0094.MP3"
+        },
+        {
+          "title1":"Durian Fruit",
+    		 	"title2":"Plei turein",
+   			  "paragraph":" ",
+          "soundfile":"11-DR2-0066.MP3"
+        },
+        {
+          "title1":"Fish",
+    		 	"title2":"Trey",
+   			  "paragraph":" ",
+          "soundfile":"12-DR2-0073.MP3"
+        },
+        {
+          "title1":"Fruit",
+    		 	"title2":"Plei",
+   			  "paragraph":" ",
+          "soundfile":"13-DR2-0067.MP3"
+        },
+        {
+          "title1":"Ginger",
+    		 	"title2":"Chnay",
+   			  "paragraph":" ",
+          "soundfile":"14-DR2-0077.MP3"
+        },
+        {
+          "title1":"I am hungry",
+    		 	"title2":"Knhom klean",
+   			  "paragraph":" ",
+          "soundfile":"15-DR2-0092.MP3"
+        },
+        {
+          "title1":"I am thirsty",
+    		 	"title2":"Knhom srek tuek",
+   			  "paragraph":" ",
+          "soundfile":"16-DR2-0093.MP3"
+        },
+        {
+          "title1":"I don't like it",
+    		 	"title2":"Knhom nin chul chet",
+   			  "paragraph":" ",
+          "soundfile":"17-DR2-0095.MP3"
+        },
+        {
+          "title1":"I take",
+    		 	"title2":"knhom yok..",
+   			  "paragraph":" ",
+          "soundfile":"18-DR2-0091.MP3"
+        },
+        {
+          "title1":"Khmer noodles",
+    		 	"title2":"Nom bain jork",
+   			  "paragraph":" ",
+          "soundfile":"19-DR2-0071.MP3"
+        },
+        {
+          "title1":"Khmer sauce",
+    		 	"title2":"Sumlaw amok",
+   			  "paragraph":" ",
+          "soundfile":"20-DR2-0070.MP3"
+        },
+        {
+          "title1":"Menu card please",
+    		 	"title2":"Knhom som menuy ban te",
+   			  "paragraph":" ",
+          "soundfile":"21-DR2-0090.MP3"
+        },
+        {
+          "title1":"Morning glory",
+    		 	"title2":"Trawkoun",
+   			  "paragraph":" ",
+          "soundfile":"22-DR2-0075.MP3"
+        },
+        {
+          "title1":"Pepper",
+    		 	"title2":"Ma ric",
+   			  "paragraph":" ",
+          "soundfile":"23-DR2-0084.MP3"
+        },
+        {
+          "title1":"Pineapple",
+    		 	"title2":"Plei m'noa-ah",
+   			  "paragraph":" ",
+          "soundfile":"24-DR2-0062.MP3"
+        },
+        {
+          "title1":"Pork",
+    		 	"title2":"Sach cha rook",
+   			  "paragraph":" ",
+          "soundfile":"25-DR2-0086.MP3"
+        },
+        {
+          "title1":"Rice",
+    		 	"title2":"By",
+   			  "paragraph":" ",
+          "soundfile":"26-DR2-0072.MP3"
+        },
+        {
+          "title1":"Salt",
+    		 	"title2":"Oum bel",
+   			  "paragraph":" ",
+          "soundfile":"27-DR2-0083.MP3"
+        },
+        {
+          "title1":"Spicy / hot",
+    		 	"title2":"Hel",
+   			  "paragraph":" ",
+          "soundfile":"28-DR2-0096.MP3"
+        },
+        {
+          "title1":"Tea",
+    		 	"title2":"Tae",
+   			  "paragraph":" ",
+          "soundfile":"29-DR2-0081.MP3"
+        },
+        {
+          "title1":"Vegetable",
+    		 	"title2":"Bonlai",
+   			  "paragraph":" ",
+          "soundfile":"30-DR2-0068.MP3"
+        },
+        {
+          "title1":"Water",
+    		 	"title2":"Teuk",
+   			  "paragraph":" ",
+          "soundfile":"31-DR2-0080.MP3"
+        },
+        {
+          "title1":"Watermelon",
+    		 	"title2":"Plei ouv luk",
+   			  "paragraph":" ",
+          "soundfile":"32-DR2-0065.MP3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0003",
+    "picture":"images/nature.jpg",
+		"tag":"",
+		"title":"Nature",
+    "Heading1":"Hello Tony.",
+ 	  "Heading2":"Hello informal",
+ 	  "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/nature.jpg",
+      "content": [
+        {
+          "title1":"Banana tree",
+    		 	"title2":"Deum jeuk",
+   			  "paragraph":" ",
+          "soundfile":"01-DR2-0019.MP3"
+        },
+        {
+          "title1":"Cat",
+    		 	"title2":"Sat chmar",
+   			  "paragraph":" ",
+          "soundfile":"02-DR2-0030.MP3"
+        },
+        {
+          "title1":"Coconut tree",
+    		 	"title2":"Deum doung",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0018.MP3"
+        },
+        {
+          "title1":"Cow",
+    		 	"title2":"Sat ko",
+   			  "paragraph":" ",
+          "soundfile":"04-DR2-0015.MP3"
+        },
+        {
+          "title1":"Dog",
+    		 	"title2":"Sat schkei",
+   			  "paragraph":" ",
+          "soundfile":"05-DR2-0029.MP3"
+        },
+        {
+          "title1":"Dry season",
+    		 	"title2":"Rodove brang",
+   			  "paragraph":" ",
+          "soundfile":"06-DR2-0022.MP3"
+        },
+        {
+          "title1":"Elephant",
+    		 	"title2":"Sat damrei",
+   			  "paragraph":" ",
+          "soundfile":"07-DR2-0014.MP3"
+        },
+        {
+          "title1":"Jasmin",
+    		 	"title2":"Phkar malis",
+   			  "paragraph":" ",
+          "soundfile":"08-DR2-0021.MP3"
+        },
+        {
+          "title1":"Lotus",
+    		 	"title2":"Pkar chhuk",
+   			  "paragraph":" ",
+          "soundfile":"09-DR2-0020.MP3"
+        },
+        {
+          "title1":"Monkey",
+    		 	"title2":"Sat svar",
+   			  "paragraph":" ",
+          "soundfile":"10-DR2-0013.MP3"
+        },
+        {
+          "title1":"Moon",
+    		 	"title2":"Preah chan",
+   			  "paragraph":" ",
+          "soundfile":"11-DR2-0026.MP3"
+        },
+        {
+          "title1":"Palmtree",
+    		 	"title2":"Deum ta nort",
+   			  "paragraph":" ",
+          "soundfile":"12-DR2-0017.MP3"
+        },
+        {
+          "title1":"Rain",
+    		 	"title2":"Pleang",
+   			  "paragraph":" ",
+          "soundfile":"13-DR2-0025.MP3"
+        },
+        {
+          "title1":"Sun",
+    		 	"title2":"Preah artit",
+   			  "paragraph":" ",
+          "soundfile":"14-DR2-0024.MP3"
+        },
+        {
+          "title1":"Sunrise",
+    		 	"title2":"Tngei riea",
+   			  "paragraph":" ",
+          "soundfile":"15-DR2-0027.MP3"
+        },
+        {
+          "title1":"Sunset",
+    		 	"title2":"Tngei lengh",
+   			  "paragraph":" ",
+          "soundfile":"16-DR2-0028.MP3"
+        },
+        {
+          "title1":"Wet season",
+    		 	"title2":"Rodove vo sar",
+   			  "paragraph":" ",
+          "soundfile":"17-DR2-0023.MP3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0004",
+    "picture":"images/sightseeing.jpg",
+		"tag":"",
+		"title":"Sightseeing",
+    "Heading1":"Hello Lio.",
+ 	  "Heading2":"Hello informal",
+ 	  "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/sightseeing.jpg",
+      "content": [
+        {
+          "title1":"Angkor Thom",
+    		 	"title2":"Angkor thom",
+   			  "paragraph":" ",
+          "soundfile":"01-DR2-0040.MP3"
+        },
+        {
+          "title1":"Angkor Wat",
+    		 	"title2":"Angkor wat",
+   			  "paragraph":" ",
+          "soundfile":"02-DR2-0039.MP3"
+        },
+        {
+          "title1":"Floating Villages",
+    		 	"title2":"Phumi andet teuk",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0041.MP3"
+        },
+        {
+          "title1":"Night Market",
+    		 	"title2":"Pshar ratrey",
+   			  "paragraph":" ",
+          "soundfile":"04-DR2-0044.MP3"
+        },
+        {
+          "title1":"Old Market",
+    		 	"title2":"Pshar tcha",
+   			  "paragraph":" ",
+          "soundfile":"05-DR2-0045.MP3"
+        },
+        {
+          "title1":"Phnom Kulen",
+    		 	"title2":"Phnom kulaehn",
+   			  "paragraph":" ",
+          "soundfile":"06-DR2-0046.MP3"
+        },
+        {
+          "title1":"Tonle Sap Lake",
+    		 	"title2":"Boeng tonle sap",
+   			  "paragraph":" ",
+          "soundfile":"07-DR2-0042.MP3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0005",
+    "picture":"images/shopping.jpg",
+		"tag":"CES",
+		"title":"Shopping",
+    "Heading1":"Hello Chris.",
+ 	  "Heading2":"Hello informal",
+ 	  "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/shopping.jpg",
+      "content": [
+        {
+          "title1":"Can you make it cheaper?",
+    		 	"title2":"Ter neak arch  banh chos dom lei ban te?",
+   			  "paragraph":" ",
+          "soundfile":"01-DR2-0036.MP3"
+        },
+        {
+          "title1":"Clothes",
+    		 	"title2":"Sam leak bumpeak",
+   			  "paragraph":" ",
+          "soundfile":"02-DR2-0097.MP3"
+        },
+        {
+          "title1":"Do you have it in color blue?",
+    		 	"title2":"Ter neak maen poah keeow tarr re te?",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0038.MP3"
+        },
+        {
+          "title1":"Do you  have it in size S/M/L",
+    		 	"title2":"Ter neak maen tom houm S/M/L tarr re te?",
+   			  "paragraph":" ",
+          "soundfile":"04-DR2-0037.MP3"
+        },
+        {
+          "title1":"Hat",
+    		 	"title2":"Muok",
+   			  "paragraph":" ",
+          "soundfile":"05-DR2-0100.MP3"
+        },
+        {
+          "title1":"How much does it cost?",
+    		 	"title2":"Ter vea maen domlei pun man?",
+   			  "paragraph":" ",
+          "soundfile":"06-DR2-0032.MP3"
+        },
+        {
+          "title1":"I want to buy this / that",
+    		 	"title2":"Knhom tchong tein muy nigh",
+   			  "paragraph":" ",
+          "soundfile":"07-DR2-0033.MP3"
+        },
+        {
+          "title1":"Jewellery",
+    		 	"title2":"Kreung aleng ka",
+   			  "paragraph":" ",
+          "soundfile":"08-DR2-0103.MP3"
+        },
+        {
+          "title1":"No, thank you",
+    		 	"title2":"Ort te aw kun",
+   			  "paragraph":" ",
+          "soundfile":"09-DR2-0034.MP3"
+        },
+        {
+          "title1":"Pants",
+    		 	"title2":"Khau",
+   			  "paragraph":" ",
+          "soundfile":"10-DR2-0099.MP3"
+        },
+        {
+          "title1":"Shoes",
+    		 	"title2":"Sbeak jeung",
+   			  "paragraph":" ",
+          "soundfile":"11-DR2-0102.MP3"
+        },
+        {
+          "title1":"Skirt",
+    		 	"title2":"Samput",
+   			  "paragraph":" ",
+          "soundfile":"12-DR2-0101.MP3"
+        },
+        {
+          "title1":"Sunglasses",
+    		 	"title2":"Vean ta",
+   			  "paragraph":" ",
+          "soundfile":"13-DR2-0104.MP3"
+        },
+        {
+          "title1":"T-shirt",
+    		 	"title2":"Ouv yeut",
+   			  "paragraph":" ",
+          "soundfile":"14-DR2-0098.MP3"
+        },
+        {
+          "title1":"Where can I buy clothes?",
+    		 	"title2":"Ter knhom arch tein som leak bumpek nov ti na?",
+   			  "paragraph":" ",
+          "soundfile":"15-DR2-0035.MP3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0006",
+    "picture":"images/numbers.jpg",
+		"tag":"",
+		"title":"Numbers",
+    "Heading1":"Hello Hugh.",
+ 	  "Heading2":"Hello informal",
+ 	  "paragraph":"for friends, coleagues, younger people.",
+    "details": {
+      "image":"images/numbers.jpg",
+      "content": [
+        {
+          "title1":"Eight",
+    		 	"title2":"Bram-bay",
+   			  "paragraph":" ",
+          "soundfile":"01-DR2-0113.MP3"
+        },
+        {
+          "title1":"Eighty",
+    		 	"title2":"Bpait seup",
+   			  "paragraph":" ",
+          "soundfile":"02-DR2-0122.MP3"
+        },
+        {
+          "title1":"Fifty",
+    		 	"title2":"Ha seup",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0119.MP3"
+        },
+        {
+          "title1":"Five",
+    		 	"title2":"Bram",
+   			  "paragraph":" ",
+          "soundfile":"04-DR2-0110.MP3"
+        },
+        {
+          "title1":"Four",
+    		 	"title2":"Boo-un",
+   			  "paragraph":" ",
+          "soundfile":"05-DR2-0109.MP3"
+        },
+        {
+          "title1":"Fourty",
+    		 	"title2":"Sai seup",
+   			  "paragraph":" ",
+          "soundfile":"06-DR2-0118.MP3"
+        },
+        {
+          "title1":"Hundred",
+    		 	"title2":"Muoy roy",
+   			  "paragraph":" ",
+          "soundfile":"07-DR2-0124.MP3"
+        },
+        {
+          "title1":"Million",
+    		 	"title2":"Muoy lean",
+   			  "paragraph":" ",
+          "soundfile":"08-DR2-0128.MP3"
+        },
+        {
+          "title1":"Ninety",
+    		 	"title2":"Gao seup",
+   			  "paragraph":" ",
+          "soundfile":"09-DR2-0114.MP3"
+        },
+        {
+          "title1":"One",
+    		 	"title2":"Moy",
+   			  "paragraph":" ",
+          "soundfile":"10-DR2-0123.MP3"
+        },
+        {
+          "title1":"Seven",
+    		 	"title2":"Bram-pee",
+   			  "paragraph":" ",
+          "soundfile":"11-DR2-0106.MP3"
+        },
+        {
+          "title1":"Seventy",
+    		 	"title2":"Jeut seup",
+   			  "paragraph":" ",
+          "soundfile":"12-DR2-0112.MP3"
+        },
+        {
+          "title1":"Six",
+    		 	"title2":"Bram-moy",
+   			  "paragraph":" ",
+          "soundfile":"13-DR2-0121.MP3"
+        },
+        {
+          "title1":"Sixty",
+    		 	"title2":"Hok-seup",
+   			  "paragraph":" ",
+          "soundfile":"14-DR2-0111.MP3"
+        },
+        {
+          "title1":"Ten",
+    		 	"title2":"Dob",
+   			  "paragraph":" ",
+          "soundfile":"15-DR2-0120.MP3"
+        },
+        {
+          "title1":"Thirty",
+    		 	"title2":"Saam seup",
+   			  "paragraph":" ",
+          "soundfile":"16-DR2-0115.MP3"
+        },
+        {
+          "title1":"Thousand",
+    		 	"title2":"Muoy bpoa-un",
+   			  "paragraph":" ",
+          "soundfile":"17-DR2-0117.MP3"
+        },
+        {
+          "title1":"Three",
+    		 	"title2":"Bay",
+   			  "paragraph":" ",
+          "soundfile":"18-DR2-0125.MP3"
+        },
+        {
+          "title1":"Twenty",
+    		 	"title2":"M'pay",
+   			  "paragraph":" ",
+          "soundfile":"19-DR2-0108.MP3"
+        },
+        {
+          "title1":"Two",
+    		 	"title2":"Pee",
+   			  "paragraph":" ",
+          "soundfile":"20-DR2-0116.MP3"
+        }
+      ]
+    }
+  },
+  {
+    "id":"0006",
+    "picture":"images/greetings-01.jpg",
+		"tag":"",
+		"title":"Imprint",
+    "Heading1":"Lorem Ipsum Page",
+ 	  "Heading2":"Lorem Ipsum Page",
+ 	  "paragraph":"Lorem Ipsum Page",
+    "details": {
+      "image":"",
+      "content": [
+        {
+          "title1":"Lorem Ipsum Page",
+    		 	"title2":"Lorem Ipsum Page",
+   			  "paragraph":" ",
+          "soundfile":"01-DR2-0113.MP3"
+        },
+        {
+          "title1":"Lorem Ipsum Page",
+    		 	"title2":"Lorem Ipsum Page",
+   			  "paragraph":" ",
+          "soundfile":"02-DR2-0122.MP3"
+        },
+        {
+          "title1":"Lorem Ipsum Page",
+    		 	"title2":"Lorem Ipsum Page",
+   			  "paragraph":" ",
+          "soundfile":"03-DR2-0119.MP3"
+        }
+      ]
+    }
+  }
+]

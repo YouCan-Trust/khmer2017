@@ -1,0 +1,244 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>&nbsp;</ion-title>
+        <ion-buttons end>
+          <button ion-button large clear (click)="showMenu(idx)"><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content #myContent>
+    <ion-slides [initialSlide]="idx">
+        <ion-slide *ngFor="let data of Details; let i = index">
+            <ion-card>
+                <shrinking-segment-header [scrollArea]="myContent" headerHeight="250">
+                  <img src="{{path+data.details.image}}">
+                  <span class="img-bullet bcolor{{i+1}}">{{i+1}}</span>
+                </shrinking-segment-header>
+                <ion-card-content>
+                  <ion-list>
+                      <ion-item text-wrap *ngFor="let det of data.details.content; let di = index">
+                          <ion-row>
+                              <ion-col col-10>
+                                  <h2 class="heading1">{{det.title1}}{{index}}</h2>
+                                  <h2 class="heading2">{{det.title2}} </h2>
+                                  <p>{{det.paragraph}}</p>
+                              </ion-col>
+                              <ion-col col-2>
+                                  <audio-track #track01 [track]="getTrack(det.soundfile,det.title1)">
+                                      <audio-track-play light [audioTrack]="track01">
+                                      </audio-track-play>
+                                  </audio-track>
+                              </ion-col>
+                          </ion-row>
+                      </ion-item>
+                  </ion-list>
+                    <!-- <ion-list *ngIf="data.details.content.title1">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title1}}{{index}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title2}} </h2>
+                                    <p>{{data.details.content.paragraph1}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track1 [track]="tracks[1]">
+                                        <audio-track-play light [audioTrack]="track1">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title3">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title3}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title4}} </h2>
+                                    <p>{{data.details.content.paragraph2}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track2 [track]="tracks[0]">
+                                        <audio-track-play light [audioTrack]="track2">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title5">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title5}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title6}} </h2>
+                                    <p>{{data.details.content.paragraph3}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track3 [track]="tracks[2]">
+                                        <audio-track-play light [audioTrack]="track3">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title7">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title7}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title8}} </h2>
+                                    <p>{{data.details.content.paragraph4}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track4 [track]="tracks[3]">
+                                        <audio-track-play light [audioTrack]="track4">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title9">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title9}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title10}} </h2>
+                                    <p>{{data.details.content.paragraph5}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track5 [track]="tracks[4]">
+                                        <audio-track-play light [audioTrack]="track5">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title11">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title11}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title12}} </h2>
+                                    <p>{{data.details.content.paragraph6}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track6 [track]="tracks[5]">
+                                        <audio-track-play light [audioTrack]="track6">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title13">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title13}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title14}} </h2>
+                                    <p>{{data.details.content.paragraph7}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track7 [track]="tracks[6]">
+                                        <audio-track-play light [audioTrack]="track7">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title15">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title15}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title16}} </h2>
+                                    <p>{{data.details.content.paragraph8}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track8 [track]="tracks[7]">
+                                        <audio-track-play light [audioTrack]="track8">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title17">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title17}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title18}} </h2>
+                                    <p>{{data.details.content.paragraph9}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track9 [track]="tracks[8]">
+                                        <audio-track-play light [audioTrack]="track9">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title19">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title19}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title20}} </h2>
+                                    <p>{{data.details.content.paragraph10}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track10 [track]="tracks[9]">
+                                        <audio-track-play light [audioTrack]="track10">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title21">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title21}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title22}} </h2>
+                                    <p>{{data.details.content.paragraph11}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track11 [track]="tracks[10]">
+                                        <audio-track-play light [audioTrack]="track11">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list>
+                    <ion-list *ngIf="data.details.content.title22">
+                        <ion-item text-wrap>
+                            <ion-row>
+                                <ion-col col-10>
+                                    <h2 class="heading1">{{data.details.content.title23}}</h2>
+                                    <h2 class="heading2">{{data.details.content.title24}} </h2>
+                                    <p>{{data.details.content.paragraph12}}</p>
+                                </ion-col>
+                                <ion-col col-2>
+                                    <audio-track #track12 [track]="tracks[11]">
+                                        <audio-track-play light [audioTrack]="track12">
+                                        </audio-track-play>
+                                    </audio-track>
+                                </ion-col>
+                            </ion-row>
+                        </ion-item>
+                    </ion-list> -->
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+    </ion-slides>
+</ion-content>

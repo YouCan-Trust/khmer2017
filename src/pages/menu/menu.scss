@@ -1,0 +1,88 @@
+page-menu {
+  ion-content {
+    text-align: right;
+    h2.line-back {
+      margin: 10px 0 0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+      &:before {
+        border-top: 1px solid #dfdfdf;
+        content:"";
+        margin: 0 auto;
+        position: absolute;
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 96%;
+        z-index: -1;
+      }
+      .top-menu-btn {
+        margin-right: 20px;
+        button {
+          height: 32px;
+          background-color: #7c7c7c;
+          .button-round {
+            border-radius: 50px;
+          }
+        }
+        .close-btn {
+          padding: 0 10px;
+          ion-icon {
+            font-size: 34px;
+          }
+        }
+        .setting-btn {
+          padding: 0 9px;
+          ion-icon {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    ion-list {
+      .item {
+        border: none !important;
+      }
+      .item-block {
+        border-bottom: 0.55px solid #c8c7cc !important;
+      }
+      .item-inner {
+        border-bottom: 0px !important;
+      }
+      .list-md > .item-block:last-child .item-inner {
+        border-bottom: 0.55px solid #c8c7cc !important;
+      }
+      .menu-bullet {
+        width: 40px;
+        height: 40px;
+        padding: 10px 15px;
+        border-radius: 50px;
+        color: #FFFFFF;
+      }
+      .menu-tag {
+        display: block;
+        font-size: 12px;
+        color: #666666;
+      }
+      .menu-active {
+        position: absolute;
+        top: 6px;
+        left: 48px;
+        z-index: 200;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.popover-ios .popover-content {
+  width: 90% !important;
+  top: 15% !important;
+  left: 5% !important;
+  height: 75% !important;
+  overflow: hidden !important;
+  border-radius: 4px;
+  .list-ios > .item-block {
+    border: none;
+  }
+}
