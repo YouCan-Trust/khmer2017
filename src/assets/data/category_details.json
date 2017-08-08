@@ -702,8 +702,8 @@
     }
   },
   {
-    "id":"0006",
-    "picture":"images/greetings-01.jpg",
+    "id":"0007",
+    "picture":"",
 		"tag":"",
 		"title":"Imprint",
     "Heading1":"Lorem Ipsum Page",
@@ -711,26 +711,7 @@
  	  "paragraph":"Lorem Ipsum Page",
     "details": {
       "image":"",
-      "content": [
-        {
-          "title1":"Lorem Ipsum Page",
-    		 	"title2":"Lorem Ipsum Page",
-   			  "paragraph":" ",
-          "soundfile":"01-DR2-0113.MP3"
-        },
-        {
-          "title1":"Lorem Ipsum Page",
-    		 	"title2":"Lorem Ipsum Page",
-   			  "paragraph":" ",
-          "soundfile":"02-DR2-0122.MP3"
-        },
-        {
-          "title1":"Lorem Ipsum Page",
-    		 	"title2":"Lorem Ipsum Page",
-   			  "paragraph":" ",
-          "soundfile":"03-DR2-0119.MP3"
-        }
-      ]
+      "content": []
     }
   }
 ]

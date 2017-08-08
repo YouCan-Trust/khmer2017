@@ -22,7 +22,7 @@ export class HomePage {
   singleTrack: any;
   tracks: any[];
   idx: number = 0;
-  path: any = 'asset/';
+  path: any = './assets/';
 
   constructor(public navCtrl: NavController,
               private navParams: NavParams,
@@ -40,7 +40,7 @@ export class HomePage {
         });
 
       if (this.platform.is('android')) {
-          this.path = '/android_asset/www/assets/';
+          this.path = 'assets/';
       }
 
       this.singleTrack = {

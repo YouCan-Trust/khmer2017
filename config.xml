@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.khmer2017" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.khmer2017" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Khmer 2017</name>
     <description>Khmer 2017 Language App</description>
     <author email="didinj@gmail.com" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -85,10 +85,11 @@
     </platform>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <engine name="android" spec="^6.2.3" />
-    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/lp1bp/cordova-plugin-fcm.git" />
+    <engine name="ios" spec="^4.4.0" />
     <plugin name="com.telerik.plugins.nativepagetransitions" spec="^0.6.5" />
     <plugin name="cordova-plugin-console" spec="^1.0.5" />
     <plugin name="cordova-plugin-device" spec="^1.1.4" />
+    <plugin name="cordova-plugin-fcm" spec="git+https://github.com/lp1bp/cordova-plugin-fcm.git" />
     <plugin name="cordova-plugin-nativeaudio" spec="^3.0.9" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.1" />
